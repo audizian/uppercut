@@ -1,0 +1,14 @@
+messages:
+  prefix: "{#a0a>}[Uppercut]{#f5f<}"
+  reload: "{prefix} &aReloaded!"
+  no-permission: "&cNo permission!"
+  puncher: "&bYou have uppercut &f%uppercut_target% &binto the air &d>:3"
+  target: "&bYou were uppercut by &f%uppercut_puncher% &d>:3"
+  toggled:
+    true: "{prefix} &bPlayers &acan now &buppercut you!"
+    false: "{prefix} &bPlayers &ccannot &buppercut you!"
+    other-true: "{prefix} &bYou have &aenabled &buppercuts for &f{target}&b!"
+    other-false: "{prefix} &bYou have &cdisabled &buppercut for &f{target}&b!"
+settings:
+  cooldown-seconds: 30
+  power: 2.5

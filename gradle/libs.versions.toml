@@ -1,0 +1,16 @@
+[versions]
+kotlin = "2.1.20-RC"
+minecraft = "1.13.2-R0.1-SNAPSHOT"
+
+[plugins]
+kotlin = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
+shadow = { id = "com.gradleup.shadow", version = "8.3.3" }
+pluginyml = { id = "net.minecrell.plugin-yml.bukkit", version = "0.6.0" }
+
+[libraries]
+kotlin = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
+spigot = { module = "org.spigotmc:spigot-api", version.ref = "minecraft" }
+placeholderapi = { module = "me.clip:placeholderapi", version = "2.11.6" }
+protocollib = { module = "com.comphenix.protocol:ProtocolLib", version = "5.1.0" }
+
+textcolor = { module = "dev.idot:textcolor", version = "0.1" }
